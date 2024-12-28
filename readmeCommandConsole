@@ -10,6 +10,7 @@ undefined
 > const cd = await contract.deploy()
 undefined
 > await cd.fundGame({ value: ethers.parseEther("100.0")})
+
 >  await ethers.provider.getBalance(signers[0])
 9899998780117060310460n
 >  await ethers.provider.getBalance(cd.target)
