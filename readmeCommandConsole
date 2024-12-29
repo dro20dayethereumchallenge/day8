@@ -38,7 +38,9 @@ undefined
 1n
 > p.wins
 0n
-> await cd.setMysteryNumber(6)
+>
+> await cd.withdrawFunds()
+
 > await cd.winOrLoseTest(1, false, {from: signers[0] ,value: ethers.parseEther("1.0") })
 > await cd.players(signers[0])
 Result(2) [ 1n, 1n ]
