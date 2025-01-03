@@ -28,6 +28,7 @@ vi gaming.sol
 
 
 npx hardhat node --hostname localhost    # make sure to run as localhost vs the dns
+# if you have a connect error - then use the aws/ dns for node (above)
 
 
 npx hardhat console --network localhost
